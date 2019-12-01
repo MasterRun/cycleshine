@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:layout_gravity="center"
+	android:background="@android:color/black"
+	tools:context=".MainActivity">
+	
+	<com.jsongo.cycleshine.view.CycleShine
+		android:id="@+id/cs"
+		android:layout_width="200dp"
+		android:layout_height="200dp"
+		app:pr_bg_color="@android:color/holo_purple"
+		app:pr_progress_end_color="#fff"
+		app:pr_progress_start_color="#00FFFFFF"
+		app:pr_progress_width="8dp"
+		app:pr_start_angle="230"
+		app:pr_sweep_angle="40" />
+
+</FrameLayout>
